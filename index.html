@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CodeQuest: The HTML Forest</title>
+    <link rel="stylesheet"  href="style.css">
+</head>
+<body>
+    <div class="contanier">
+        <img src="weatherIcon.webp" alt="Weather icon">
+        <h1 class="title">Weather App</h1>
+        <div class="searchBar">
+            <input type="text" class="city" placeholder="Enter city name">
+            <button class="searchButton" onclick="fetchData()">Search</button>
+        </div>
+        <div class="weatherInfo">
+            <h1 class="cityName"></h1>
+            <p class="weatherId"></p>
+            <p class="description"></p><br>
+            <p class="temp"></p>
+            <p class="wind"> </p>
+            <p class="humidity"></p>
+            <p class="showError"></p>
+        </div>
+    </div>
+   
+    <script src="script.js"> </script>
+</body>
+</html>
